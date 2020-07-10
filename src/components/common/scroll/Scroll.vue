@@ -69,7 +69,7 @@ export default {
     }
   },
 
-  watch() {
+  watch: {
     data() {
       setTimeout(this.refresh, 20);
     }
